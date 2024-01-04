@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tictactoe for Science Freaks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Tictactoe for Science Freaks</h1>
+    </header>
+
+    <section class="container">
+        <form id="my-form">
+            <h1>Type in field coordinates</h1>
+            <div class="msg"></div>
+            <div class="msg2"></div>
+            <div class="msg3"></div>
+            <div>
+                <label for="row">Row:</label>
+                <input type="text" id="row">
+            </div>
+            <div>
+                <label for="column">Column:</label>
+                <input type="text" id="column">
+            </div>
+            <input class="btn" type="submit" value="Submit">
+            <!-- <ul id="users"></ul>
+            
+            <ul class="items">
+                <li class="item">Item 1</li>
+                <li class="item">Item 2</li>
+                <li class="item">Item 3</li>
+            </ul> -->
+        </form>
+
+        <form id="field-form">
+            <img src="img/empty.png" alt="Field [0,0]" title="Field [0,0]" id="firstField" width="72" height="67">
+            <img src="img/empty.png" alt="Field [0,1]" title="Field [0,1]" id="secondField" width="72" height="67">
+            <img src="img/empty.png" alt="Field [0,2]" title="Field [0,2]" id="thirdField" width="72" height="67">
+            <img src="img/empty.png" alt="Field [1,0]" title="Field [1,0]" id="fourthField" width="72" height="67">
+            <img src="img/empty.png" alt="Field [1,1]" title="Field [1,1]" id="fifthField" width="72" height="67">
+            <img src="img/empty.png" alt="Field [1,2]" title="Field [1,2]" id="sixthField" width="72" height="67">
+            <img src="img/empty.png" alt="Field [2,0]" title="Field [2,0]" id="seventhField" width="72" height="67">
+            <img src="img/empty.png" alt="Field [2,1]" title="Field [2,1]" id="eigthField" width="72" height="67">
+            <img src="img/empty.png" alt="Field [2,2]" title="Field [2,2]" id="ninthField" width="72" height="67">
+        </form>
+    </section>
+    
+    
+    <script src="main.js"></script>
+    </body>
+
+</html>
